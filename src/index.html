@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rick and Morty</title>
+  </head>
+  <body>
+    <div class="loaderContainer">
+      <div class="loaderWrapper">
+        <div id="#loader" class="loader"></div>
+      </div>
+    </div>
+    <div class="pagination">
+      <button id="prev"><</button>
+      <div class="buttons"></div>
+      <button id="next">></button>
+      <div>
+        <button id="mainBtn" class="favButton">На главную</button>
+        <button id="favBtn" class="favButton">Избранные</button>
+      </div>
+    </div>
+    <div id="cards" class="cards">
+      <button id="addToFavorites" class="favoriteBtn"></button>
+    </div>
+    <div id="favoritesContainer"></div>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
